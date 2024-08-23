@@ -1,0 +1,67 @@
+@font-face { font-family: "Roboto_Light300"; src: url(../../assets/fonts/Roboto/Roboto-Light.ttf); }
+
+@font-face { font-family: "Roboto_Medium"; src: url(../../assets/fonts/Roboto/Roboto-Medium.ttf); }
+
+.logo { font-family: "Roboto_Medium", sans-serif; color: #057cfe; cursor: pointer; }
+
+.location_container { display: flex; align-items: center; }
+
+.location_container img { color: #fff; width: 30px; }
+
+.location-text { font-family: "Roboto_Light300", sans-serif; color: #8d97a5; }
+
+.search_container { width: 25%; height: 90%; }
+
+.search_input { color: #fff; width: 100%; height: 100%; padding-left: 2.5rem; background: url("../../assets/images/search.svg") no-repeat left center; background-size: 1.5rem; background-position: 0.5rem center; border: 1px solid #2c343c; border-radius: 10px; font-family: "Roboto_Light300", sans-serif; font-size: 16px; }
+
+.weather-card_container { margin-top: 20px; background-color: #0d0f1d; border-radius: 10px; padding: 30px; width: 30%; cursor: pointer; transition: transform 0.3s ease; }
+
+.weather-card_container:active { transform: scale(2); }
+
+.weather-card_info { display: flex; align-items: center; font-family: "Roboto_Light300", sans-serif; font-size: 14px; }
+
+.weather-card_info > div { display: flex; flex-direction: column; margin-left: 20px; }
+
+.current_weather_desc { color: #22529d; }
+
+.search_container { position: relative; }
+
+.suggestions_list { list-style: none; position: absolute; top: 100%; left: 0; right: 0; padding: 0; background: #0d0f1d; max-height: 200px; overflow-y: auto; z-index: 1000; border: 1px solid #2c343c; border-radius: 10px; }
+
+.suggestions_list li { padding: 8px; cursor: pointer; }
+
+.suggestions_list li:hover { background-color: #1f252e; }
+
+.time_container { display: flex; align-items: center; justify-content: space-between; }
+
+.time_content { display: flex; flex-direction: column; }
+
+.btn_container { width: 70px; height: 30px; }
+
+.btn_container > button { color: #ff8686; background: none; border: 1px solid #f23d3d; border-radius: 10px; width: 100%; height: 100%; cursor: pointer; }
+
+.btn_container:active { transform: scale(0.9); }
+
+.btn_container_update { height: 35px; width: 11%; }
+
+.btn_container_update > button { font-family: "Roboto_Medium", sans-serif; width: 100%; height: 100%; border-radius: 10px; border: 1px solid #057cfe; background: none; color: #057cfe; font-size: 14px; cursor: pointer; }
+
+.btn_container_update:active { transform: scale(0.9); }
+
+.city-list { display: flex; flex-wrap: wrap; gap: 20px; }
+
+.weather-detail_container { margin-top: 20px; padding: 20px; background: #0d0f1d; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+
+.weather-detail-info-container { display: flex; justify-content: space-between; }
+
+.chart-container { margin-top: 20px; }
+
+.weather-card { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin: 10px; text-align: center; }
+
+.weather-card h2 { font-size: 1.5rem; margin-bottom: 10px; }
+
+.weather-card p { margin: 5px 0; }
+
+.weather-card button { background-color: #057cfe; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
+
+.weather-card button:hover { background-color: #035bb5; }

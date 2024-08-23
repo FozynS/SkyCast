@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Roboto_Light300";
+  src: url(../../assets/fonts/Roboto/Roboto-Light.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto_Light300", sans-serif;
+  color: #a0acbc;
+  height: 150vh;
+  padding: 20px;
+  background: rgb(28, 38, 54);
+  background: linear-gradient(
+    147deg,
+    rgba(28, 38, 54, 1) 36%,
+    rgba(22, 26, 44, 1) 49%,
+    rgba(24, 29, 42, 1) 58%,
+    rgba(34, 38, 46, 1) 66%
+  );
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  border-radius: 10px;
+  height: 10vh;
+  padding: 20px;
+  background-color: #0d0f1d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+  padding: 0;
+  margin: 0;
+}
